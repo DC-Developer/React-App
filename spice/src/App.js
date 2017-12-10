@@ -3,6 +3,7 @@ import logo from './logo.svg';
 import './App.css';
 import HelloDiv from './components/hello.js';
 import About from './components/about.js';
+import Button from './components/button.js';
 
 class App extends Component {
   render() {
@@ -16,6 +17,7 @@ class App extends Component {
           <HelloDiv />
         </p>
         <About />
+        <Button />
       </div>
     );
   }
